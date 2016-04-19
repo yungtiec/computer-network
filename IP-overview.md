@@ -7,6 +7,7 @@ The IP, which stands for Internet Protocol, is responsible for addressing hosts 
 IP is a connectionless protocol, is hence an unreliable protocol with no gurantee of reliable delivery, error-free delivery, or ordered delivery. Reliability issues are resolved at upper layer (TCP). 
 Currently, both IPv4 and IPv6 are deployed. 
 ## IPv4
+IP version 4 uses 32-bit(4 byte) addresses, limiting the address space to 2<sup>32</sup>. (actually less than this number because some spaces are reserved for special uses, like 224 is reserved for multicast addressing) 
 ## IPv6
 ## IP mobility
 ## VPN
