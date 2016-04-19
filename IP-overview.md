@@ -27,6 +27,7 @@ is the network-native IP address assigned to the mobile node when it's in a fore
 #### Foreign agent
 is the entity that holds the mapping of care-of addresses and home addresses. 
 ### Operation
+The approach is to let the routers act as middle-men and handle the mobility issue through either **indirect routing** or **direct routing**.
 #### Agent discovery
 ##### Agent solicitation
 ##### Agent advertisement
