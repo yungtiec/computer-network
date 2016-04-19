@@ -11,4 +11,25 @@ IP version 4 uses 32-bit(4 byte) addresses, limiting the address space to 2<sup>
 ## IPv6
 ## IP mobility
 Consider the scenario when a mobile device user moves from one network to another, how can the device maintain its active session? Mobile IP (RFC3320) is the solution to ensure that mobility is transparent to the application layer. The mobile unit needs to be able to maintain a **home address** regardless of its current location. An analogy is that one's cellphone number remains the same when traveling from one country to another country. 
+### Mobile IP architecture and vocabulary
+#### Home network
+is the network where the unit receives its assigned IP address. 
+#### Home address
+is the IP address assigned to the mobile unit at the home network
+#### Home agent
+is the entity on the home network responsible for tunneling the packets destined to the mobile unit when it's away.
+#### Foreign network
+is the network where the mobile unit currently resides. 
+#### Care-of address
+is the network-native IP address assigned to the mobile unit when it's in a foreign network.
+#### Foreign agent
+is the entity that holds the mapping of care-of addresses and home addresses. 
+### Operation
+#### Agent discovery
+##### Agent solicitation
+##### Agent advertisement
+#### Mobility registration
+#### Indirect routing (triangular routing)
+#### Direct routing
+
 ## VPN
