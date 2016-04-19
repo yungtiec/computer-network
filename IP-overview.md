@@ -4,7 +4,7 @@ If we think of the domain name (github.com) as personal name, IP address is like
 Since Internet reaches virtually everywhere in the world, users cannot possibly know all the IP address. Fortunately, the Internet keeps a address book in DNS so one can find the someone else's address using domain name. 
 ## Overview
 The IP, which stands for Internet Protocol, is responsible for addressing hosts and routing datagrams from source to desination host across one or more IP networks. 
-IP is a connectionless protocol, is hence a unreliable protocol with no gurantee of reliable delivery, error-free delivery, or ordered delivery. Reliability issues are resolved at upper layer (TCP). 
+IP is a connectionless protocol, is hence an unreliable protocol with no gurantee of reliable delivery, error-free delivery, or ordered delivery. Reliability issues are resolved at upper layer (TCP). 
 Currently, both IPv4 and IPv6 are deployed. 
 ## IPv4
 ## IPv6
